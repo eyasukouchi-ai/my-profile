@@ -23,7 +23,7 @@ body{
 
 #hero-section h1{
 	color: white;
-	font-size: 12em;
+	font-size: 4em;
 	font-family: "Borel", cursive;
 	padding-left: 3%;
 	padding-top: 120px;
@@ -44,20 +44,19 @@ body{
 
 .verticalbox{
 	display: flex;
+	width: 70%;
 	flex-direction: column;
 	text-align: center;
-	width: 70%;
-
 }
 
 .riku-intro{
 	display: flex;
 	flex-direction: row;
-	margin: 1%;
-	padding: 1%;
+	margin: 3%;
+	padding: 3%;
 	background-color: whitesmoke;
 	width: 90%;
-	height: 850px;
+	height: 270px;
 	border-radius: 50px;
 	box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
@@ -67,16 +66,16 @@ body{
 }
 
 .riku-intro h2{
-	font-size: 7em;
+	font-size: 2em;
 }
 
 .riku-intro p{
-	font-size: 4em;
+	font-size: 1em;
 }
 
 .intro-img{
 	border-radius: 50%;
-	height: 800px;
+	height: 250px;
 }
 
 #intro-description{
@@ -87,13 +86,13 @@ button {
 	cursor: pointer;
 	font-weight: 700;
 	transition: all 0.2s;
-	padding: 30px 30px;
-	border-radius: 100px;
+	padding: 0px 10px;
+	border-radius: 30px;
 	background: #cfef00;
-	border: 20px solid transparent;
+	border: 3px solid transparent;
 	display: flex;
 	align-items: center;
-	font-size: 80px;
+	font-size: 1em;
 }
 
 button:hover {
@@ -101,7 +100,7 @@ button:hover {
 }
 
 button > svg {
-	width: 130px;
+	width: 30px;
 	margin-left: 10px;
 	transition: transform 0.3s ease-in-out;
 }
@@ -115,28 +114,33 @@ button:active {
 }
 
 img{
-	height: 30vh;
+	height: 10vh;
+}
+
+.verticalbox-2{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
 }
 
 .others h3{
-	font-size: 120px;
+	font-size: 1em;
 }
 
 #SNS{
-	width: 20vw;
-	font-size: 3em;
+	font-size: 1em;
 	text-align: left;
 }
 
 .others{
-	margin: 60px;
-	padding: 30px;
-	height: 32vh;
+	margin: 2%;
+	padding: 10%;
+	height: 270px;
 }
 
 .fa {
 	padding: 20px;
-	font-size: 30px;
+	font-size: 1em;
 	width: 50px;
 	text-align: center;
 	text-decoration: none;
@@ -162,54 +166,11 @@ img{
 }
 
 @media (max-width: 540px) {
-	.main {
-		flex-direction: column;
-		align-items: center;
-	}
+    .main {
+        flex-direction: column;
+    }
 
-	.verticalbox {
-		width: 100%;
-		align-items: center;
-	}
-
-	.riku-intro {
-		width: 90vw;
-		height: auto;
-		margin: 20px 0;
-		padding: 20px;
-		flex-direction: column;
-	}
-
-	#intro-description {
-		margin: 20px 0;
-	}
-
-	#SNS {
-		width: 90vw;
-		margin-top: 20px;
-		text-align: left;
-	}
-
-	.others {
-		width: 90vw;
-		height: auto;
-		margin: 20px 0;
-		padding: 20px;
-	}
-
-	img,
-	.intro-img {
-		max-width: 100%;
-		height: auto;
-	}
-
-	button {
-		font-size: 32px;
-		padding: 16px 20px;
-		border-width: 8px;
-	}
-
-	button > svg {
-		width: 48px;
-	}
+    .SNS{
+    	width: 90%;
+    }
 }
