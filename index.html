@@ -1,58 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My web profile</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <section id="banner-section">
-      <h1>Adrien</h1>
-      <h3>My title / job / position</h3>
-    </section>
-
-    <div id="about-me-section">
-      <h2>About me</h2>
-      <img id="riku" src="riku.jpg" alt="my profile picture">
-      <p>I teach Web Development Sprint at a business school. The goal: empower you to code your own profile and landing page in HTML and CSS.</p>
-      <a href="https://lewagon.com" id="wagon">Discover my company</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eiko's web profile</title>
+  <link rel="stylesheet" type="text/css" href="indexstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="hero-section">
+		<h1>Riku</h1>
+      	<p id="hero-catchcopy">football player</p>
     </div>
+    <div class="main">
+		<div class="verticalbox">
+	      	<div class="riku-intro">
+	      		<img class="intro-img" src="riku.jpg" alt="my profile picture">
+	      		<div id="intro-description">
+	      			<h2>My profile</h2>
+	      			<p>I teach football as a coach in the world-famous team, called Brighton. : empower you to improve your skill!</p>
+	      			<button>
+	  					<span>More!</span>
+	  					<svg
+					    xmlns="http://www.w3.org/2000/svg"
+					    fill="none"
+					    viewBox="0 0 74 74"
+					    height="80"
+					    width="80"
+					  >
+					    <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+					    <path
+					      fill="black"
+					      d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+					    ></path>
+					  </svg>
+					</button>
+	      		</div>
+	      	</div>
+	      	<div class="riku-intro">
+	      		<div id="intro-description">
+	      			<h2>My Program</h2>
+	      			<p>I have a bariety of course from for beginner to professional!</p>
+	      			<button>
+	  					<span>More!</span>
+	  					<svg
+					    xmlns="http://www.w3.org/2000/svg"
+					    fill="none"
+					    viewBox="0 0 74 74"
+					    height="80"
+					    width="80"
+					  >
+					    <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+					    <path
+					      fill="black"
+					      d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+					    ></path>
+					  </svg>
+					</button>
+	      		</div>
+	      		<img  class="intro-img" src="Card1.jpg" alt="my profile picture">
+	      	</div>
+		</div>
+		<div class="verticalbox" id="SNS">
+			<div class="others">
+				<h3>Blog</h3>
+	      		<p>Mar-11: Spring Football Match</p>
+	      		<p>Mar-3: Ohinasama Festival</p>
+	      	</div>
+			<div class="others">
+				<h3>SNS</h3>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-linkedin"></a>
 
-    <div id="my-passion-section">
-      <h2>My Passions</h2>
-      <ol>
-        <li>
-          <h4>Computer engineering</h4>
-          <p>I love algorithms and yes I love it, algorithms</p>
-        </li>
-        <li>
-          <h4>Basketball</h4>
-          <p>I have played basketball for 30 years before I got to old to bend the knee</p>
-        </li>
-        <li>
-          <h4>Travelling</h4>
-          <p>Travelling is my passion because I like discovering new cultures and people</p>
-        </li>
-        <li>
-          <h4>food</h4>
-          <p>Food is good</p>
-        </li>
-      </ol>
-    </div>
+	      	</div>
+		</div>
+	</div>
 
-    <div id="socials-section">
-      <h2>Follow me</h2>
-      <div class="links">
-        <a href="">LinkedIn</a>
-        <a href="">GitHub</a>
-        <a href="">Instagram</a>
-      </div>
-    </div>
-
-    <section id="footer">
-      <p>Made with ❤️ for this course</p>
-    </section>
-  </body>
+</body>
 </html>
